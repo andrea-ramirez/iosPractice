@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DateFormatter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zf1-KI-qib">
+                                <rect key="frame" x="78" y="328.5" width="219" height="121"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="0wd-JE-w5p">
+                                        <rect key="frame" x="62" y="13" width="95" height="95"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IhM-FV-6CI">
+                                                <rect key="frame" x="0.0" y="0.0" width="95" height="43"/>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="36"/>
+                                                <color key="textColor" red="0.0" green="0.4063975040742247" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bnm-OG-f2C">
+                                                <rect key="frame" x="0.0" y="52" width="95" height="43"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="0wd-JE-w5p" secondAttribute="height" multiplier="1:1" id="Cmc-mW-Naz"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.98677691173154281" blue="0.943694080075965" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="0wd-JE-w5p" firstAttribute="centerY" secondItem="Zf1-KI-qib" secondAttribute="centerY" id="5rV-wo-TpF"/>
+                                    <constraint firstItem="0wd-JE-w5p" firstAttribute="top" secondItem="Zf1-KI-qib" secondAttribute="top" constant="13" id="Bzn-0d-4G3"/>
+                                    <constraint firstItem="0wd-JE-w5p" firstAttribute="centerX" secondItem="Zf1-KI-qib" secondAttribute="centerX" id="Sy5-Pg-mm6"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bpG-c5-hQ3">
+                                <rect key="frame" x="78" y="230" width="219" height="48.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="2020" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q2P-cu-ZXg">
+                                        <rect key="frame" x="0.0" y="0.0" width="219" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="eGu-Ev-C9S"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                        <color key="textColor" red="0.11488374731978912" green="0.19368829926301628" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RkE-5b-vqH">
+                                        <rect key="frame" x="0.0" y="21" width="219" height="27.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96255230232820821" green="0.94942413574113771" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="bpG-c5-hQ3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="230" id="BHQ-fU-DvP"/>
+                            <constraint firstItem="bpG-c5-hQ3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="78" id="DkS-EZ-bqw"/>
+                            <constraint firstItem="Zf1-KI-qib" firstAttribute="top" secondItem="bpG-c5-hQ3" secondAttribute="bottom" constant="50" id="MtY-jo-Ee1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bpG-c5-hQ3" secondAttribute="trailing" constant="78" id="UbS-iJ-Bzt"/>
+                            <constraint firstItem="Zf1-KI-qib" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="78" id="ZaB-J7-QuI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zf1-KI-qib" secondAttribute="trailing" constant="78" id="xpt-H8-Ald"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="tNm-ly-14X" appends="YES" id="iLg-vd-M9R"/>
+                            <outletCollection property="gestureRecognizers" destination="lIx-GY-1nG" appends="YES" id="EXp-Yg-MwR"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="lbDay" destination="IhM-FV-6CI" id="xX4-Mg-1l6"/>
+                        <outlet property="lbDayName" destination="Bnm-OG-f2C" id="Is7-P2-Fm7"/>
+                        <outlet property="lbMonth" destination="RkE-5b-vqH" id="13w-nA-XtN"/>
+                        <outlet property="lbYear" destination="Q2P-cu-ZXg" id="ajW-Z8-pyy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="tNm-ly-14X">
+                    <connections>
+                        <action selector="diaMas:" destination="BYZ-38-t0r" id="qy1-H2-xS7"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="lIx-GY-1nG">
+                    <connections>
+                        <action selector="diaMenos:" destination="BYZ-38-t0r" id="BNG-ju-cYu"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="132" y="120.98950524737631"/>
+        </scene>
+    </scenes>
+</document>
